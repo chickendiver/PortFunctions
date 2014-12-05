@@ -1,6 +1,6 @@
 from distutils.core import setup, Extension
 
-data_files = ["inpout32.dll"]
+data_files = [("DLLs", ["inpout32.dll"])]
 
 setup(name='PortFunctions', version='1.1',
       description = 'A Windows port reader for Python, built in C',
