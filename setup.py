@@ -2,7 +2,7 @@ from distutils.core import setup, Extension
 
 data_files = ["inpout32.dll"]
 
-setup(name='PortFunctions', version='1.0',
+setup(name='PortFunctions', version='1.1',
       description = 'A Windows port reader for Python, built in C',
       author = 'Bradley Poulette',
       author_email = 'bpoulett@ualberta.ca',
